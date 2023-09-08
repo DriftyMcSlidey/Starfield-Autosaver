@@ -22,3 +22,8 @@ OR
 # Notice
 Required Pyhton_Modules should be installed automatically.
 ![FirstRun](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/388be17c-cfd8-406b-a3f5-2d0ccc6a7f30)
+
+# Running
+It is saved by "quicksave", the older "quicksave" will be overwritten. 
+The normal autosaves are still created by the game.
+![Quicksave](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/e54fe143-3123-4f5d-8e09-0fbc652423ec)
