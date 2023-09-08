@@ -1,4 +1,4 @@
-#zu erst prüfen wir ob alle Pakete da sind. Wenn nicht installieren wir die nach
+#zu erst prüfen wir ob alle Pakete da sind. Wenn nicht istallieren wir die nach
 import subprocess
 import sys
 
@@ -26,8 +26,15 @@ import datetime
 import time
 print(f"Starfield Autosaver ist gestartet.")
 print(f"Bitte schließe dieses Fenster nicht!")
-print(f"Du kannst jetzt das Spiel starten und spielen. Viel Spaß.")
+print(f"Zum Beenden einfach das Fenster schließen.\n")
+print(f"Du kannst jetzt das Spiel starten und spielen.")
+print(f"Du hast 10 Minuten Zeit das alte Quicksave zu laden.")
+print(f"Viel Spaß.\n")
 while True:
+    # Zeit um 10 Minuten erhöhen
+    aktuelle_zeit = datetime.datetime.now()
+    naechstes_quicksave = aktuelle_zeit + datetime.timedelta(minutes=10)
+    print(f"Save geplant: {naechstes_quicksave}")
     # Finde Fenster mit dem Titel "starfield"
     fenster_liste = gw.getWindowsWithTitle('Starfield')
     # Die For Schleife muss sein, wir wollen ja nicht ein Browser oder anderes Fenster
@@ -40,7 +47,7 @@ while True:
             aktiv_fenster_titel = aktiv_fenster.title
             if aktiv_fenster_titel == "Starfield":
                 aktuelles_datum = datetime.datetime.now()
-                print(f"Save wurde erstellt: {aktuelles_datum}")
+                print(f"Save erstellt: {aktuelles_datum}")
                 # Halte die F5-Taste für X Sekunden
                 pyautogui.keyDown('f5')
                 time.sleep(2)
