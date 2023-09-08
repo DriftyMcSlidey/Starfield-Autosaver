@@ -1,2 +1,2 @@
 # Starfield-Autosaver
-Pythonscript which creates a quicksave every 300 seconds via F5.
+Pythonscript which creates a quicksave every 600 seconds via F5.
