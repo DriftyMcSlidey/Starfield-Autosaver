@@ -22,6 +22,7 @@ pruefe_und_installiere_pakete(zu_pruefende_pakete)
 #ab hier beginnt das Autosave Script
 import pygetwindow as gw
 import pyautogui
+import datetime
 import time
 print(f"Starfield Autosaver ist gestartet.")
 print(f"Bitte schließe dieses Fenster nicht!")
@@ -38,9 +39,11 @@ while True:
             aktiv_fenster = gw.getActiveWindow()
             aktiv_fenster_titel = aktiv_fenster.title
             if aktiv_fenster_titel == "Starfield":
+                aktuelles_datum = datetime.datetime.now()
+                print(f"Save wurde erstellt: {aktuelles_datum}")
                 # Halte die F5-Taste für X Sekunden
                 pyautogui.keyDown('f5')
                 time.sleep(2)
                 pyautogui.keyUp('f5')
     # Warte 600 Sekunden
-    time.sleep(600)
+    time.sleep(60)
