@@ -23,7 +23,9 @@ pruefe_und_installiere_pakete(zu_pruefende_pakete)
 import pygetwindow as gw
 import pyautogui
 import time
-
+print(f"Starfield Autosaver ist gestartet.")
+print(f"Bitte schließe dieses Fenster nicht!")
+print(f"Du kannst jetzt das Spiel starten und spielen. Viel Spaß.")
 while True:
     # Finde Fenster mit dem Titel "starfield"
     fenster_liste = gw.getWindowsWithTitle('Starfield')
