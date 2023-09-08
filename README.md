@@ -8,12 +8,16 @@ https://www.python.org/downloads/
 
 Download the starfield_autosave.py and starfield_autosave.bat from here
 
-# Start with:
-python starfield_autosave.py
+# Start STEAM:
+the game is launched via steam
+
+1. starfield_autosave_steam.bat [MOUSECLICK]
 
 OR
 
-starfield_autosave.bat [MOUSECLICK]
+# Start XBOX STORE:
+1. starfield_autosave.bat [MOUSECLICK]
+2. Start the Game over XBOX Store
 
 # Notice
 Required Pyhton_Modules should be installed automatically.
