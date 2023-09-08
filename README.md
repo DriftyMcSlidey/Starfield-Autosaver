@@ -17,3 +17,4 @@ starfield_autosave.bat [MOUSECLICK]
 
 # Notice
 Required Pyhton_Modules should be installed automatically.
+![FirstRun](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/388be17c-cfd8-406b-a3f5-2d0ccc6a7f30)
