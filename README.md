@@ -25,5 +25,9 @@ Required Pyhton_Modules should be installed automatically.
 
 # Running
 It is saved by "quicksave", the older "quicksave" will be overwritten. 
+
 The normal autosaves are still created by the game.
+
+The savegame is created only when Starfield is the active window.
+
 ![Quicksave](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/e54fe143-3123-4f5d-8e09-0fbc652423ec)
