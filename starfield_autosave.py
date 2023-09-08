@@ -35,6 +35,8 @@ while True:
     aktuelle_zeit = datetime.datetime.now()
     naechstes_quicksave = aktuelle_zeit + datetime.timedelta(minutes=10)
     print(f"Save geplant: {naechstes_quicksave}")
+    # Warte 600 Sekunden
+    time.sleep(600)
     # Finde Fenster mit dem Titel "starfield"
     fenster_liste = gw.getWindowsWithTitle('Starfield')
     # Die For Schleife muss sein, wir wollen ja nicht ein Browser oder anderes Fenster
@@ -52,5 +54,3 @@ while True:
                 pyautogui.keyDown('f5')
                 time.sleep(2)
                 pyautogui.keyUp('f5')
-    # Warte 600 Sekunden
-    time.sleep(600)
