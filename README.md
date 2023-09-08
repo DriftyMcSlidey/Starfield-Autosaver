@@ -6,7 +6,7 @@ Detects the active window of Starfield and sends a "F5" every 600 seconds to cre
 Download Python and install it. (Testet with Version 3.9+)
 https://www.python.org/downloads/
 
-Download the starfield_autosave.py and starfield_autosave.bat / starfield_autosave_steam.bat from here
+Download the starfield_autosave.py and starfield_autosave.bat / starfield_autosave_steam.bat from here and save it in the same folder.
 
 # Start STEAM:
 the game is launched via steam
