@@ -46,4 +46,4 @@ while True:
                 time.sleep(2)
                 pyautogui.keyUp('f5')
     # Warte 600 Sekunden
-    time.sleep(60)
+    time.sleep(600)
