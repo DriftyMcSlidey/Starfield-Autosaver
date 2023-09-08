@@ -1,4 +1,4 @@
-#zu erst prüfen wir ob alle Pakete da sind. Wenn nicht istallieren wir die nach
+#zu erst prüfen wir ob alle Pakete da sind. Wenn nicht installieren wir die nach
 import subprocess
 import sys
 
