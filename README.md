@@ -6,10 +6,14 @@ Detects the active window of Starfield and sends a "F5" every 600 seconds to cre
 Download Python and install it. (Testet with Version 3.9+)
 https://www.python.org/downloads/
 
-Download the starfield_autosave.py from here
+Download the starfield_autosave.py and starfield_autosave.bar from here
 
 # Start with:
-python3 starfield_autosave.py
+python starfield_autosave.py
+
+OR
+
+starfield_autosave.bat [MOUSECLICK]
 
 # Notice
 Required Pyhton_Modules should be installed automatically.
