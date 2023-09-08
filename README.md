@@ -31,3 +31,4 @@ The normal autosaves are still created by the game.
 The savegame is created only when Starfield is the active window.
 
 ![Quicksave](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/e54fe143-3123-4f5d-8e09-0fbc652423ec)
+![Quicksave2](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/ad54d903-9468-4d1e-9e16-2809f7968bdc)
