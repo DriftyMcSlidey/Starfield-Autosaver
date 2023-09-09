@@ -29,4 +29,4 @@ It is saved by "quicksave", the older "quicksave" will be overwritten.
 The normal autosaves are still created by the game.
 
 The savegame is created only when Starfield is the active window.
-![Quicksave](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/b83d1251-c04e-42cf-8e9c-ffdf0346bbac)
+![Quicksave](https://github.com/DriftyMcSlidey/Starfield-Autosaver/assets/60230978/e02b9c46-d1ac-4130-a051-3d620cb54e3c)
